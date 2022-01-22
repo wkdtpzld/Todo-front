@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+TODO-FRONT입니다.
+일단 TODO-BACK 링크는 해당 링크를 확인해주시면 감사하겠습니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# https://github.com/wkdtpzld/Todo-backend-practice
 
-## Available Scripts
+-------------------------------------
 
-In the project directory, you can run:
+간단한 회원가입 사이트를 MATERIAL-CORE를 사용하여 만들었습니다.
 
-### `npm start`
+npm start시 자동으로실행되기 때문에 따로 입력을 할 필요는 없지만
+만약 종료하셨을 경우에는
+http://localhost:3000를 사용하시면 됩니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+또한 백엔드 기본 설정 LOCALHOST는 9001번으로 설정되어있으므로
+app-config.js 에서 알맞는 자신의 로컬 호스트로 변경해주시면 됩니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+![screen-recording](https://user-images.githubusercontent.com/87063105/150631701-ec210ec7-4fd4-4330-9143-6ad0b6307943.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-------------------------------------
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![screen-recording (1)](https://user-images.githubusercontent.com/87063105/150631728-9ee7e33f-4009-4594-9b0b-6a797460d277.gif)
