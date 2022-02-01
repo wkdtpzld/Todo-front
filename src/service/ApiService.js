@@ -1,9 +1,10 @@
-import { API_BASE_URL } from "../app-config";
+// import { API_BASE_URL } from "../app-config";
 const ACCESS_TOKEN = "ACCESS_TOKEN";
 
 export function call(api, method, request) {
     let headers = new Headers({
-    "Content-Type": "application/json",
+      "Content-Type": "application/json",
+      'Accept': 'application/json'
     });
 
   // 로컬 스토리지에서 ACCESS TOKEN 가져오기
@@ -13,9 +14,9 @@ export function call(api, method, request) {
     }
 
     let options = {
-    headers: headers,
-    url: API_BASE_URL + api,
-    method: method,
+      headers: headers,
+      url: "http://Kwangs.ap-northeast-2.elasticbeanstalk.com" + api,
+      method: method,
     };
 
     if (request) {

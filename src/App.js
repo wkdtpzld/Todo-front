@@ -14,18 +14,17 @@ class App extends React.Component{
     };
   }
   
+  componentDidMount(){
+    call("/todo", "GET", null).then((response) =>
+      this.setState({ items: response.data, loading: false })
+    );
+  };
+
   update = (item) => {
     call("/todo", "PUT", item).then((response) =>
       this.setState({ items: response.data })
     );
   };
-
-  componentDidMount(){
-    call("/todo", "GET", null).then((response) =>
-      this.setState({ items: response.data, loading:false })
-    );
-  };
-
 
   delete = (item) => {
     call("/todo", "DELETE", item).then((response) =>
